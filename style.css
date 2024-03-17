@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 50px;
+    font-size: 17px;
+    letter-spacing: -0.5px;
+}
+#part-2{
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    padding-top: 25px;
+}
+#part-2 h1{
+    padding-bottom: 30px;
+}
+#part-2 h3{
+    padding-top: 10px;
+}
+#part-3{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+#intro{
+    margin: 70px 0;
+    height: 70%;
+    padding: 30px 47px;
+}
+#intro h3{
+    font-weight: 600;
+    padding-bottom: 7px;
+    font-size: 27px;
+    padding-left: 5px;
+}
+#intro h1{
+    font-weight: 600;
+    font-size: 100px;
+    letter-spacing: -6px;
+    line-height: 110px;
+}
+
+#bottom-nav{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 17px;
+}
+#line{
+    width: 12%;
+    height: 0;
+    border-top: 2px solid black;
+    margin-left: 880px;
+    margin-top: 14px;
+}
+#bottom-nav h2{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+#case{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 55px;
+}
+.pic img{
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: top;
+    height: 650px;
+    width: 605px;
+}
+.pic h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.pic p{
+    font-size: 20px;
+    color: rgb(86, 82, 82);
+    font-weight: 600;
+}
+.last{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.pic i{
+    border: 2px solid black;
+    color: black;
+    background-color: #fff;
+    height: 70px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 10px 10px;;
+}
+.last i:hover{
+    background-color: black;
+    color: #fff;
+}
